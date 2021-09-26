@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IP Founder</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Find out what your public IPv4 and IPv6 address is revealing about you! My IP address information shows your location; city, region, country, ... -->
+    <p id="heading">Free IP Address & Geolocation Lookup Tool</p>
+
+    <div class="container">
+      <div class="left">
+        <div class="head">
+          <div class="text">Your IP Address</div>
+          <div class="ip-address">
+            <span id="ipAddress">157.11.57.121</span>
+          </div>
+        </div>
+
+        <div class="all-data">
+          <table>
+            <tr>
+              <td>ISP:</td>
+              <td id="ISPname">jio</td>
+            </tr>
+            <tr>
+              <td>City:</td>
+              <td id="CITYname">jio</td>
+            </tr>
+            <tr>
+              <td>Region:</td>
+              <td id="REGIONname">jio</td>
+            </tr>
+            <tr>
+              <td>Country:</td>
+              <td id="COUNTRYname">jio</td>
+            </tr>
+            <tr>
+              <td>Country Code:</td>
+              <td id="COUNTRYcode">jio</td>
+            </tr>
+
+            <tr>
+              <td>Timezone:</td>
+              <td id="TIMEZONE">jio</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div class="right">
+        <div class="text2">
+          <h2>IP LOOKUP</h2>
+        </div>
+
+        <div class="input">
+          <input type="text" placeholder="Enter Other IP Address" id="EnteredIp" /><br />
+          <button id="lookupBtn">LOOKUP</button>
+          <div id="warning">
+                <h3>NO DATA FOUND!</h3>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ip-lookup section -->
+
+    <div class="ip-lookup">
+      <div id="container2">
+        <div class="head2">
+          <div class="text3">Entered IP Address</div>
+          <div class="entered-ip-address">
+            <span id="ipAddress2"></span>
+          </div>
+        </div>
+
+          
+        <div id="all-data2">
+
+          
+          <table>
+            <tr>
+              <td>ISP:</td>
+              <td id="ISPname2">jio</td>
+            </tr>
+            <tr>
+              <td>City:</td>
+              <td id="CITYname2">jio</td>
+            </tr>
+            <tr>
+              <td>Region:</td>
+              <td id="REGIONname2">jio</td>
+            </tr>
+            <tr>
+              <td>Country:</td>
+              <td id="COUNTRYname2">jio</td>
+            </tr>
+            <tr>
+              <td>Country Code:</td>
+              <td id="COUNTRYcode2">jio</td>
+            </tr>
+
+            <tr>
+              <td>Timezone:</td>
+              <td id="TIMEZONE2">jio</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
