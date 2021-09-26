@@ -7,7 +7,7 @@ let COUNTRYcode = document.getElementById("COUNTRYcode");
 let TIMEZONE = document.getElementById("TIMEZONE");
 
 
-fetch('https://ip-api.com/json/')
+fetch('http://ip-api.com/json/')
    
           .then((response) => {
             return response.json();
@@ -42,7 +42,7 @@ lookupBtn.addEventListener('click', () => {
     {
 
         
-        fetch(`https://ip-api.com/json/${EnteredIp}`)
+        fetch(`http://ip-api.com/json/${EnteredIp}`)
             
            
         .then((response2) => {
