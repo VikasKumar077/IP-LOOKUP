@@ -7,7 +7,7 @@ let COUNTRYcode = document.getElementById("COUNTRYcode");
 let TIMEZONE = document.getElementById("TIMEZONE");
 
 
-fetch('http://ip-api.com/json/')
+fetch('https://ip-api.com/json/')
    
           .then((response) => {
             return response.json();
