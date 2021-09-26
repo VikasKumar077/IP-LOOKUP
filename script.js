@@ -42,7 +42,7 @@ lookupBtn.addEventListener('click', () => {
     {
 
         
-        fetch(`http://ip-api.com/json/${EnteredIp}`)
+        fetch(`https://ip-api.com/json/${EnteredIp}`)
             
            
         .then((response2) => {
