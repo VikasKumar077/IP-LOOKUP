@@ -27,7 +27,7 @@ fetch('http://ip-api.com/json/')
           });
 
 
-// for entered ip address--
+// for entered ip address----
 let lookupBtn = document.getElementById("lookupBtn");
 
 lookupBtn.addEventListener('click', () => {
